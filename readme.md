@@ -34,7 +34,6 @@ Rungoly is meant to create beautiful strings to make the message standout. It re
 
  - Support colors for logs
  - Add more cool patterns
- - Add it on Github
  - Minify js files
  - CI/CD
  - JS docs
