@@ -7,7 +7,10 @@ Rungoly is meant to create beautiful strings to make the message standout. It re
         - char: Character to print
         - count: number of char per line
         - lines: number of lines to print
+        - fontColor: Font color for Terminal
+        - backgroundColor: Background color for Terminal
     - message
+        - align: Message alignment with respect to the design length
         - space: Line space above and below the message
         - text: Message text
 
@@ -19,9 +22,12 @@ Rungoly is meant to create beautiful strings to make the message standout. It re
 >     design: {
 >         char: "=",
 >         count: 100,
->         lines: 3
+>         lines: 3,
+>         fontColor: "yellow",
+>         backgroundColor: "magenta"
 >     },
 >     message: {
+>         align: "right",
 >         space: 1,
 >         text: message
 >     }
@@ -32,7 +38,6 @@ Rungoly is meant to create beautiful strings to make the message standout. It re
 
 ### Todos
 
- - Support colors for logs
  - Add more cool patterns
  - Minify js files
  - CI/CD

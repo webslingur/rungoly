@@ -3,15 +3,16 @@ const message = "This is test message";
 const options = {
     design: {
         char: "=",
-        color: "green",
         count: 100,
-        lines: 3
+        lines: 3,
+        fontColor: "yellow",
+        backgroundColor: "magenta",
     },
     message: {
         align: "center",
-        color: "pink",
         space: 1,
         text: message
     }
 }
+console.log(rungoly.printChar(options));
 rungoly.log(options);
